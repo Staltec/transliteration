@@ -3,7 +3,7 @@
   "author"        : "Alexander Prozorov <staltec@gmail.com>",
   "url"           : "https://github.com/Staltec/ua.transliteration",
   "keywords"      : ["transliteration", "russian", "ukrainian"],
-  "version"       : "1.0.1",
+  "version"       : "1.0.2",
   "main"          : "./lib/transliteration.cyr",
   "engines"       : { "node": ">= 0.4.0" },
    "devDependencies": {

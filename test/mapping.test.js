@@ -202,6 +202,12 @@ exports['test Ыы']=function(test){
     test.done();
 };
 
+exports['test Ээ']=function(test){
+    test.equal('Emulsyia',transliteration.transliterate('Эмульсия'));
+    test.equal('eto',transliteration.transliterate('это'));
+    test.done();
+};
+
 exports['test Юю']=function(test){
     test.equal('Yurii',transliteration.transliterate('Юрій'));
     test.equal('Koriukivka',transliteration.transliterate('Корюківка'));
