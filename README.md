@@ -1,9 +1,6 @@
 # transliteration.cyr
 
-JavaScript library for transliteration cyrillic russian and ukrainian words to latin.
-Was implemented with following Ukrainian law in mind: http://zakon1.rada.gov.ua/cgi-bin/laws/main.cgi?nreg=55-2010-%EF.
-
-All test cases from the law are implemented.
+JavaScript library for transliteration cyrillic russian words to latin.
 
 Library can be used in browser on node.js platform.
 

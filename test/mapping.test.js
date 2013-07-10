@@ -10,7 +10,7 @@ exports['test Аa']=function(test){
 };
 
 exports['test Бб']=function(test){
-    test.equal('Borshchahivka',transliteration.transliterate('Борщагівка'));
+    test.equal('Borshchagivka',transliteration.transliterate('Борщагівка'));
     test.equal('Borysenko',transliteration.transliterate('Борисенко'));
     test.done();
 };
@@ -22,8 +22,8 @@ exports['test Вв']=function(test){
 };
 
 exports['test Гг']=function(test){
-    test.equal('Hadiach',transliteration.transliterate('Гадяч'));
-    test.equal('Bohdan',transliteration.transliterate('Богдан'));
+    test.equal('Gadiach',transliteration.transliterate('Гадяч'));
+    test.equal('Bogdan',transliteration.transliterate('Богдан'));
     test.equal('Zghurskyi',transliteration.transliterate('Згурський'));
     test.done();
 };
@@ -42,14 +42,14 @@ exports['test Дд']=function(test){
 
 exports['test Ее']=function(test){
     test.equal('Rivne',transliteration.transliterate('Рівне'));
-    test.equal('Oleh',transliteration.transliterate('Олег'));
+    test.equal('Oleg',transliteration.transliterate('Олег'));
     test.equal('Esman',transliteration.transliterate('Есмань'));
     test.done();
 };
 
 exports['test Єє']=function(test){
     test.equal('Yenakiieve',transliteration.transliterate('Єнакієве'));
-    test.equal('Haievych',transliteration.transliterate('Гаєвич'));
+    test.equal('Gaievych',transliteration.transliterate('Гаєвич'));
     test.equal('Koropie',transliteration.transliterate("Короп'є"));
     test.done();
 };
@@ -154,7 +154,7 @@ exports['test Тт']=function(test){
 };
 
 exports['test Уу']=function(test){
-    test.equal('Uzhhorod',transliteration.transliterate('Ужгород'));
+    test.equal('Uzhgorod',transliteration.transliterate('Ужгород'));
     test.equal('Uliana',transliteration.transliterate('Уляна'));
     test.done();
 };
@@ -191,8 +191,8 @@ exports['test Шш']=function(test){
 
 exports['test Щщ']=function(test){
     test.equal('Shcherbukhy',transliteration.transliterate('Щербухи'));
-    test.equal('Hoshcha',transliteration.transliterate('Гоща'));
-    test.equal('Harashchenko',transliteration.transliterate('Гаращенко'));
+    test.equal('Goshcha',transliteration.transliterate('Гоща'));
+    test.equal('Garashchenko',transliteration.transliterate('Гаращенко'));
     test.done();
 };
 
@@ -215,7 +215,7 @@ exports['test Юю']=function(test){
 };
 
 exports['test Яя']=function(test){
-    test.equal('Yahotyn',transliteration.transliterate('Яготин'));
+    test.equal('Yagotyn',transliteration.transliterate('Яготин'));
     test.equal('Yaroshenko',transliteration.transliterate('Ярошенко'));
     test.equal('Kostiantyn',transliteration.transliterate('Костянтин'));
     test.equal('Znamianka',transliteration.transliterate("Знам'янка"));
