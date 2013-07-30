@@ -47,6 +47,12 @@ exports['test Ее']=function(test){
     test.done();
 };
 
+exports['test Ёё']=function(test){
+    test.equal('Ezh',transliteration.transliterate('Ёж'));
+    test.equal('Techet',transliteration.transliterate('Течёт'));
+    test.done();
+};
+
 exports['test Єє']=function(test){
     test.equal('Yenakiieve',transliteration.transliterate('Єнакієве'));
     test.equal('Gaievych',transliteration.transliterate('Гаєвич'));
