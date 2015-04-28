@@ -2,6 +2,10 @@
   "description"   : "Transliteration library for Russian and Ukrainian words (cyrillic to latin)",
   "author"        : "Alexander Prozorov <staltec@gmail.com>",
   "url"           : "https://github.com/Staltec/transliteration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Staltec/transliteration.git"
+  },
   "keywords"      : ["transliteration", "russian"],
   "version"       : "1.0.4",
   "main"          : "./lib/transliteration.cyr",
